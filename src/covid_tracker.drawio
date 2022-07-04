@@ -1,1 +1,34 @@
-<mxfile host="app.diagrams.net" modified="2022-07-04T06:21:47.561Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" version="20.0.4" etag="Y095clOEw-9j_1yH9_im" type="github"><diagram id="KpIb1qrAHsAH2qcsSGlr">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-07-04T06:35:56.633Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="Inkdxj0b8wGvrytbCKzW" version="20.0.4" type="github">
+  <diagram id="KpIb1qrAHsAH2qcsSGlr" name="Page-1">
+    <mxGraphModel dx="1038" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JHVrzbAFYPmQTyxLwhNV-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="45" y="33" width="760" height="510" as="geometry" />
+        </mxCell>
+        <mxCell id="JHVrzbAFYPmQTyxLwhNV-2" value="&lt;b&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;Covid 19 Tracker&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="60" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JHVrzbAFYPmQTyxLwhNV-3" value="WorldWide" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="370" y="60" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JHVrzbAFYPmQTyxLwhNV-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="1" source="JHVrzbAFYPmQTyxLwhNV-3" target="JHVrzbAFYPmQTyxLwhNV-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JHVrzbAFYPmQTyxLwhNV-9" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="120" y="150" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JHVrzbAFYPmQTyxLwhNV-10" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Coronavirus Cases&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="125" y="156" width="115" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="JHVrzbAFYPmQTyxLwhNV-11" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;+2,000&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="125" y="180" width="115" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="JHVrzbAFYPmQTyxLwhNV-12" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;1.2 M Total&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="125" y="202" width="115" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
