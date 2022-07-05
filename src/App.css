@@ -3,9 +3,18 @@
   padding: 0;
 }
 
+body {
+  background-color: #f5f6fa;
+}
+
 .app__header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-bottom: 1.25rem;
+}
+
+.app__stats {
+  display: flex;
+  justify-content: space-between;
 }
