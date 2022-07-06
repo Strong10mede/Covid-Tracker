@@ -10,11 +10,14 @@ import { useEffect, useState } from "react";
 import "./App.css";
 import InfoBox from "./Components/InfoBox";
 import Map from "./Components/Map";
+import Table from "./Components/Table";
+import { sortData } from "./util";
 
 function App() {
   const [countries, setCountries] = useState([]);
   const [country, setCountry] = useState("worldwide");
   const [countryInfo, setCountryInfo] = useState({});
+  const [tableData, setTableData] = useState([]);
   //useeffect = runs a piece of code on basis of given condition
   // USESTATE = short term memory; STATE=how to write a variable in REACT
   //https://disease.sh/v3/covid-19/countries
@@ -36,6 +39,9 @@ function App() {
             name: country.country, //United States, United Kingdom
             value: country.countryInfo.iso2, //USA,Uk
           }));
+          console.log(data);
+          const sortedData = sortData(data);
+          setTableData(sortedData);
           setCountries(countries);
         });
     };
@@ -112,6 +118,7 @@ function App() {
         <CardContent>
           <h3>Live Cases by Country</h3>
           {/* Table */}
+          <Table countries={tableData} />
           <h3>Live Cases WorldWide</h3>
           {/* Graph */}
         </CardContent>
